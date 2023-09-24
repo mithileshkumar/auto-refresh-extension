@@ -1,0 +1,44 @@
+html,
+body {
+    height: 50px;
+}
+
+#refresh-container {
+    width: 200px;
+    height: 30px;
+}
+
+.refresh-container__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#refresh-container input {
+    width: 120px;
+}
+
+#refresh-container__btnstart {
+    border: green;
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid green;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#refresh-container__btnstop {
+    border: transparent;
+    background-color: red;
+    border-radius: 50%;
+    height: 21px;
+    width: 20px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#refresh-container__interval {
+    margin-top: 5px;
+    margin-left: 7px;
+}
